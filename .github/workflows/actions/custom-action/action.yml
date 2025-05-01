@@ -1,0 +1,11 @@
+name: Custom Action
+
+description: A custom action that does something
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run a script
+      shell: bash
+      run: |
+        echo "Hello, world!"
